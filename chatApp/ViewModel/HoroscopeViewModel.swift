@@ -38,7 +38,7 @@ class HoroscopeViewModel: NSObject, ObservableObject {
     
     func getHoroscope() {
         let headers = [
-            "x-rapidapi-key": "6fc63f113amsh171629a52708f13p1b4dc1jsna1fa4085f394",
+            "x-rapidapi-key": "xxxxxxxxxxxxxxxxx",
             "x-rapidapi-host": "sameer-kumar-aztro-v1.p.rapidapi.com"
         ]
 
