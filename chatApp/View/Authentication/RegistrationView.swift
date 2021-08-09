@@ -48,14 +48,7 @@ struct RegistrationView: View {
                 CustomTextField(imageName: "envelope", placeHolderText: "Email", isSecureField: false, text: $email)
                     .padding(.bottom,0)
                 
-                
-                
-//                CustomTextField(imageName: "person", placeHolderText: "Username", isSecureField: false, text: $username)
-//                    .padding(.top,10)
-                
-              
-                
-                
+
                 CustomTextField(imageName: "person", placeHolderText: "Full Name", isSecureField: false, text: $fullname)
                     .padding(.top,16)
                     .padding(.bottom,0)

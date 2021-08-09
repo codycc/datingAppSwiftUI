@@ -58,7 +58,6 @@ struct EditProfileView: View {
                     TextField("", text: $fullname )
                         .padding(8)
                 }
-            
                 .background(Color.white)
                 
                 VStack(alignment:.leading) {

@@ -17,14 +17,10 @@ class AuthViewModel: NSObject, ObservableObject {
     
     static let shared = AuthViewModel()
     
-   
-    
     override init() {
         super.init()
         userSession = Auth.auth().currentUser
         fetchUser()
-    
-      
     }
     
     func login(withEmail email: String, password: String ) {
@@ -129,7 +125,6 @@ class AuthViewModel: NSObject, ObservableObject {
                                 self.userSession = self.tempCurrentUser
                                 self.fetchUser()
                         }
-                    
                 }
             }
         } else {
@@ -138,12 +133,9 @@ class AuthViewModel: NSObject, ObservableObject {
                     COLLECTION_USERS.document(uid).updateData(["imageURLS": [imageUrl]]) { _ in
                         self.userSession = self.tempCurrentUser
                         self.fetchUser()
-                
-                   
                 }
             }
         }
-       
     }
     
     func signout() {

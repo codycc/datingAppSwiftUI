@@ -124,9 +124,6 @@ struct ProfilePhotoSelectorView: View {
                 })
             }
             
-//            Text(profileImage == nil ? "Select a profile photo" : "Great! Tap below to continue")
-//                .font(.system(size:20, weight: .semibold))
-            
             if let image = selectedImage  {
                 Button(action: {
                     if selectedImage != nil && selectedImage2 != nil && selectedImage3 != nil && selectedImage4 != nil {

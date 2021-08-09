@@ -62,24 +62,6 @@ class HoroscopeViewModel: NSObject, ObservableObject {
                     self.horoscopes.append(Horoscope(current_date: json["current_date"].stringValue, color: json["color"].stringValue, description: json["description"].stringValue, lucky_time: json["lucky_time"].stringValue, mood: json["mood"].stringValue, compatibility: json["compatibility"].stringValue, lucky_number: json["lucky_number"].stringValue))
                     
                 }
-//                for i in json {
-//
-//                    let currentDate = i.1["current_date"].stringValue
-//                    let description = i.1["description"].stringValue
-//                    let color = i.1["color"].stringValue
-//                    let luckyTime = i.1["lucky_time"].stringValue
-//                    let compatibility = i.1["compatibility"].stringValue
-//                    let luckyNumber = i.1["lucky_number"].stringValue
-//                    let mood = i.1["mood"].stringValue
-//
-//                    DispatchQueue.main.async {
-//                        self.horoscopes.append(Horoscope(current_date: currentDate, color: color, description: description, lucky_time: luckyTime, mood: mood, compatibility: compatibility, lucky_number: luckyNumber))
-//                        print(self.horoscopes[0])
-//                    }
-//
-//                }
-//                print(httpResponse)
-                
             }
         })
 

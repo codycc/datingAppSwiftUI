@@ -21,7 +21,6 @@ struct MainTabView: View {
                         }
                         .tabItem {
                             Image(systemName: "moon.stars.fill")
-                                
                         }
                         .tag(0)
                     HoroscopeView(user: user)

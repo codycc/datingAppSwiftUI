@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomTextField: View {
-    let  imageName: String
+    let imageName: String
     let placeHolderText:String
     let isSecureField: Bool
     @Binding var text: String

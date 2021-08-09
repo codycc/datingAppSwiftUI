@@ -21,8 +21,6 @@ struct UserCell: View {
                     .clipped()
                     .clipShape(Circle())
                 VStack(alignment: .leading,spacing:4) {
-//                    Text(user.username)
-//                        .font(.system(size: 14, weight: .semibold))
                     Text(user.fullname)
                         .font(.system(size: 15))
                 }.foregroundColor(.black)

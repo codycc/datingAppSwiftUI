@@ -11,7 +11,6 @@ struct ChannelView: View {
     
     var body: some View {
        HomeView().environmentObject(UserManager())
-       
             .navigationBarHidden(true)
             .navigationBarTitle("")
     }

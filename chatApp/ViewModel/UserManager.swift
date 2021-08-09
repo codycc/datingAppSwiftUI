@@ -20,8 +20,6 @@ class UserManager: ObservableObject {
     }
     
     private func loadCardPeople() {
-       // self.cardPeople = User.examples
-        
             COLLECTION_USERS.getDocuments { snapshot, _ in
                 guard let documents = snapshot?.documents else {return}
                 
